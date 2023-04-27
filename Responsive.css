@@ -1,0 +1,250 @@
+/* 
+==================================================== Responsive Web ======================================================
+*/
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+
+  .home-container {
+    margin: 3rem auto;
+    row-gap: 6rem;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: flex-start;
+  }
+
+  .footer-logo {
+    margin-left: 2rem;
+  }
+
+  .footer-para {
+    margin: 1rem 2rem;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1007px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 807px) {
+  html {
+    font-size: 60%;
+  }
+
+  /* 
+    ================================Home Page=========================================
+    */
+  nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+    position: relative;
+  }
+
+  .logo {
+    font-size: 3em;
+    color: var(--primary);
+  }
+
+  ul {
+    z-index: 100;
+    position: absolute;
+    top: -100rem;
+    right: 4rem;
+    width: 35%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: var(--primary);
+    border-radius: 10px;
+    transition: all 800ms;
+  }
+
+  .active {
+    top: 9rem;
+  }
+
+  li {
+    margin: 0rem;
+  }
+
+  .link {
+    color: var(--bg-primary);
+    font-weight: bold;
+  }
+
+  .link:hover {
+    color: var(--bg-primary);
+  }
+
+  .toggle-btn {
+    display: block;
+    cursor: pointer;
+  }
+
+
+  /* 
+    ================================Third Page=========================================
+    */
+
+  .third-part-1-img {
+    width: 50%;
+  }
+
+  .third-part-2 {
+    text-align: center;
+    margin: auto auto 4rem auto;
+  }
+
+  .third-part-2-para {
+    max-width: 500px;
+    line-height: 2rem;
+    margin: auto 4rem;
+    margin-bottom: 3rem;
+  }
+
+
+
+  /* 
+    ================================Fifth Page=========================================
+    */
+  .fifth-part-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 3rem;
+  }
+
+  .fifth-part-2-heading {
+    margin: auto;
+  }
+
+  .fifth-part-2-para {
+    margin: auto;
+  }
+
+  /* 
+    ================================Footer Page=========================================
+    */
+  .footer-container {
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .footer-part-1 {
+    text-align: center;
+  }
+
+  .footer-para {
+    text-align: center;
+    width: auto;
+    margin: 1rem 12rem;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+}
+
+@media screen and (max-width: 715px) {
+  .home-part-1 {
+    margin: auto;
+  }
+
+  .home-heading {
+    width: auto;
+    font-size: 6em;
+    text-align: center;
+    margin: auto;
+  }
+
+  .painting {
+    font-size: 6em;
+    text-align: center;
+    margin: auto;
+  }
+
+  .nft-collection-profile {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    background-color: var(--transparent);
+    border-radius: 500px;
+  }
+
+  .nft-coolection-profile-img-wrapper {
+    width: 70%;
+    height: 50%;
+  }
+
+  .card {
+    margin: auto;
+    width: 70%;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 515px) {
+
+  .home-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home-part-1 {
+    margin: 3rem auto auto auto;
+    width: auto;
+  }
+
+  .footer-para {
+    margin: 1rem 0rem;
+    width: 320px;
+    color: var(--white);
+  }
+}
+
+@media screen and (max-width: 415px) {
+
+  .home-heading {
+    font-size: 6em;
+  }
+
+  .third-part-2-para {
+    max-width: 300px;
+    margin: 3rem 0% 5rem 0%;
+  }
+
+}
