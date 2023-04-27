@@ -34,7 +34,7 @@ html {
   opacity: 1;
 }
 
-/* :root {
+ :root {
   --cursorX: 50vw;
   --cursorY: 50vh;
 }
@@ -58,7 +58,7 @@ html {
     rgba(0, 0, 0, 0.7) 80%
   );
   
-} */
+}
 body {
   background-color: var(--bg-primary);
 }
